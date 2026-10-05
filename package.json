@@ -1,0 +1,31 @@
+{
+  "name": "@rapidmastery/brand-kit",
+  "version": "1.0.0",
+  "description": "Rapid Mastery brand kit: design tokens, fonts, logos and component specimens.",
+  "scripts": {
+    "build": "node sd.config.mjs && node scripts/postbuild.mjs && node scripts/swatches.mjs"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  },
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./css": "./dist/css/tokens.css",
+    "./css/print": "./dist/css/tokens-print.css",
+    "./css/components": "./components/components.css",
+    "./fonts.css": "./fonts/fonts.css",
+    ".": "./dist/js/tokens.js",
+    "./tailwind": "./dist/tailwind/preset.cjs",
+    "./json": "./dist/json/tokens.json",
+    "./react": "./components/react/index.jsx"
+  },
+  "files": [
+    "dist",
+    "fonts",
+    "components",
+    "logos/svg",
+    "logos/png"
+  ]
+}

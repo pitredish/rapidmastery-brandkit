@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rapid Mastery Components</title>
+<link rel="stylesheet" href="../../fonts/fonts.css">
+<link rel="stylesheet" href="../../dist/css/tokens.css">
+<link rel="stylesheet" href="../components.css">
+<style>
+  body { margin: 0; }
+  .wrap { max-width: var(--rm-layout-content-max); margin: 0 auto; padding: var(--rm-base-space-10) var(--rm-layout-gutter) var(--rm-base-space-20); display: flex; flex-direction: column; gap: var(--rm-base-space-14); }
+  .spec { display: flex; flex-direction: column; gap: var(--rm-base-space-4); }
+  .spec > h2 { font-size: var(--rm-type-subsection-font-size); }
+  .note { color: var(--rm-color-text-muted); font-size: var(--rm-type-small-font-size); margin: 0; max-width: 64ch; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--rm-base-space-4); }
+  .row { display: flex; gap: var(--rm-base-space-3); flex-wrap: wrap; align-items: center; }
+  @media (max-width: 760px) { .grid-3 { grid-template-columns: 1fr; } .wrap { padding-inline: 18px; } }
+</style>
+</head>
+<body class="rm-root">
+
+<header class="rm-band">
+  <div class="rm-band__inner">
+    <span class="rm-eyebrow">Smart Learning · Chapter 1.3</span>
+    <h1 class="rm-band__title">Study less. Remember <em>more.</em></h1>
+    <p class="rm-band__lead">Retrieval practice and spacing beat rereading. Here's how to set them up in twenty minutes.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="spec">
+    <span class="rm-eyebrow">Band</span>
+    <h2>The blue band</h2>
+    <p class="note">Shown above. One per screen, full width, at the top. Headline in white with at most one emphasized word in peach. This is the brand's most recognizable element.</p>
+  </section>
+
+  <section class="spec">
+    <span class="rm-eyebrow">Actions</span>
+    <h2>Buttons, links and inputs</h2>
+    <div class="row">
+      <a class="rm-btn rm-btn--primary" href="#">Start the toolkit</a>
+      <a class="rm-btn rm-btn--secondary" href="#">Download PDF</a>
+      <span class="rm-btn rm-btn--highlight">Review due in 2 days</span>
+    </div>
+    <p class="note">Inline links look <a class="rm-link" href="#">like this</a>. Buttons and inputs are always full pills.</p>
+    <form class="rm-form-row" style="max-width:440px" onsubmit="event.preventDefault()">
+      <label for="email" style="position:absolute;left:-9999px">Email</label>
+      <input class="rm-input" id="email" type="email" placeholder="you@email.com" style="flex:1">
+      <button class="rm-btn rm-btn--primary" type="submit">Send it</button>
+    </form>
+  </section>
+
+  <section class="spec">
+    <span class="rm-eyebrow">Pillars</span>
+    <h2>Pillar cards</h2>
+    <div class="grid-3">
+      <article class="rm-pillar rm-pillar--learning"><span class="rm-eyebrow">Pillar 1</span><h3>Smart Learning</h3><p>How you take in and keep information.</p></article>
+      <article class="rm-pillar rm-pillar--systems"><span class="rm-eyebrow">Pillar 2</span><h3>Smart Systems</h3><p>Goals, schedules and habits that hold.</p></article>
+      <article class="rm-pillar rm-pillar--execution"><span class="rm-eyebrow">Pillar 3</span><h3>Smart Execution</h3><p>Practice, feedback and momentum.</p></article>
+    </div>
+  </section>
+
+  <section class="spec">
+    <span class="rm-eyebrow">Tools</span>
+    <h2>Module, list rows, dots and progress</h2>
+    <div class="rm-module">
+      <ul class="rm-list">
+        <li class="rm-row"><span class="rm-tile rm-tile--learning" aria-hidden="true">R</span><div class="rm-row__text"><span class="rm-row__meta">Oct 3, 2026 · Recall</span><span class="rm-row__title">Cranial nerves, set 2</span><span class="rm-row__detail">12 cards · 2 missed</span></div></li>
+        <li class="rm-row"><span class="rm-tile rm-tile--systems" aria-hidden="true">S</span><div class="rm-row__text"><span class="rm-row__meta">Oct 2, 2026 · Schedule</span><span class="rm-row__title">Next review set for Oct 5</span><span class="rm-row__detail">Spacing interval: 3 days</span></div></li>
+        <li class="rm-row"><span class="rm-tile rm-tile--execution" aria-hidden="true">P</span><div class="rm-row__text"><span class="rm-row__meta">Oct 1, 2026 · Practice</span><span class="rm-row__title">Brachial plexus</span><span class="rm-row__detail">18 cards · 0 missed</span></div></li>
+      </ul>
+    </div>
+    <div class="row">
+      <span class="rm-dots" aria-label="5 of 7 days done, 1 partial"><i class="rm-dot rm-dot--done"></i><i class="rm-dot rm-dot--done"></i><i class="rm-dot rm-dot--done"></i><i class="rm-dot rm-dot--partial"></i><i class="rm-dot rm-dot--done"></i><i class="rm-dot rm-dot--done"></i><i class="rm-dot"></i></span>
+      <span class="rm-chip">20 min</span><span class="rm-chip">Beginner</span><span class="rm-chip">Daily</span>
+    </div>
+    <div class="rm-progress" style="max-width:280px"><div class="rm-progress__bar"><i class="rm-progress__seg rm-progress__seg--on"></i><i class="rm-progress__seg rm-progress__seg--on"></i><i class="rm-progress__seg rm-progress__seg--on"></i><i class="rm-progress__seg"></i><i class="rm-progress__seg"></i></div><span class="rm-progress__label">3/5 complete</span></div>
+  </section>
+
+  <section class="spec">
+    <span class="rm-eyebrow">Guides</span>
+    <h2>Callouts</h2>
+    <div class="rm-callout rm-callout--science"><strong>The Science</strong><span>Spaced practice roughly doubles long-term retention compared with massed practice (Cepeda et al., 2008).</span></div>
+    <div class="rm-callout rm-callout--mistakes"><strong>Common Mistakes</strong><span>Rereading feels productive because the material looks familiar. Familiar isn't the same as remembered.</span></div>
+    <div class="rm-callout rm-callout--do"><strong>Do This</strong><span>Close the book and write down everything you remember before checking.</span></div>
+  </section>
+
+  <section class="rm-panel">
+    <span class="rm-eyebrow">Free guide</span>
+    <h2>Get the Study Smarter cheat sheet</h2>
+    <p style="margin:0">One page. Every technique, ranked by evidence.</p>
+    <a class="rm-btn rm-btn--primary" href="#">Send it to me</a>
+  </section>
+
+</main>
+</body>
+</html>

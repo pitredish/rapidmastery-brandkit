@@ -1,0 +1,13 @@
+/**
+ * Rapid Mastery brand tokens. Generated from tokens/ by Style Dictionary. Do not edit by hand.
+ */
+
+@media print { :root {
+  --rm-color-bg-ground: #ffffff; /** Print: white ground. Tints still print */
+  --rm-radius-module: 4px;
+  --rm-radius-card: 6px;
+  --rm-radius-panel: 6px;
+  --rm-shadow-photo: 0px 0px 0px 0px rgba(0,0,0,0);
+  --rm-shadow-float: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+}

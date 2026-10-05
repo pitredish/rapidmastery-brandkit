@@ -1,0 +1,23 @@
+{
+  "base": {
+    "font": {
+      "family": {
+        "$type": "fontFamily",
+        "display": { "$value": ["Bricolage Grotesque", "Arial Narrow", "Arial", "sans-serif"] },
+        "body":    { "$value": ["Figtree", "Arial", "sans-serif"] },
+        "mono":    { "$value": ["ui-monospace", "SF Mono", "Menlo", "Consolas", "monospace"] }
+      },
+      "weight": {
+        "$type": "fontWeight",
+        "regular":  { "$value": 400 },
+        "semibold": { "$value": 600 },
+        "bold":     { "$value": 700 }
+      },
+      "tracking": {
+        "$type": "dimension",
+        "display": { "$value": "-0.02em" },
+        "label":   { "$value": "0.06em" }
+      }
+    }
+  }
+}

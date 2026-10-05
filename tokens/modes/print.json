@@ -1,0 +1,44 @@
+{
+  "color": {
+    "bg": {
+      "ground": {
+        "$type": "color",
+        "$value": "{base.color.slate.0}",
+        "$description": "Print: white ground. Tints still print"
+      }
+    }
+  },
+  "radius": {
+    "$type": "dimension",
+    "module": {
+      "$value": "4px"
+    },
+    "card": {
+      "$value": "6px"
+    },
+    "panel": {
+      "$value": "6px"
+    }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "photo": {
+      "$value": {
+        "offsetX": "0px",
+        "offsetY": "0px",
+        "blur": "0px",
+        "spread": "0px",
+        "color": "rgba(0,0,0,0)"
+      }
+    },
+    "float": {
+      "$value": {
+        "offsetX": "0px",
+        "offsetY": "0px",
+        "blur": "0px",
+        "spread": "0px",
+        "color": "rgba(0,0,0,0)"
+      }
+    }
+  }
+}

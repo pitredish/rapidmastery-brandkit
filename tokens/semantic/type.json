@@ -1,0 +1,19 @@
+{
+  "font": {
+    "display": { "$type": "fontFamily", "$value": "{base.font.family.display}" },
+    "body":    { "$type": "fontFamily", "$value": "{base.font.family.body}" },
+    "mono":    { "$type": "fontFamily", "$value": "{base.font.family.mono}" }
+  },
+  "type": {
+    "$type": "typography",
+    "page-title":   { "$value": { "fontFamily": "{base.font.family.display}", "fontWeight": "{base.font.weight.bold}",     "fontSize": "46px", "lineHeight": 1.1,  "letterSpacing": "{base.font.tracking.display}" }, "$description": "34px under 760px" },
+    "section":      { "$value": { "fontFamily": "{base.font.family.display}", "fontWeight": "{base.font.weight.bold}",     "fontSize": "30px", "lineHeight": 1.2,  "letterSpacing": "{base.font.tracking.display}" } },
+    "subsection":   { "$value": { "fontFamily": "{base.font.family.display}", "fontWeight": "{base.font.weight.bold}",     "fontSize": "22px", "lineHeight": 1.25, "letterSpacing": "-0.01em" } },
+    "card-title":   { "$value": { "fontFamily": "{base.font.family.display}", "fontWeight": "{base.font.weight.semibold}", "fontSize": "18px", "lineHeight": 1.3,  "letterSpacing": "-0.01em" } },
+    "lead":         { "$value": { "fontFamily": "{base.font.family.body}",    "fontWeight": "{base.font.weight.regular}",  "fontSize": "17px", "lineHeight": 1.65, "letterSpacing": "0" } },
+    "body":         { "$value": { "fontFamily": "{base.font.family.body}",    "fontWeight": "{base.font.weight.regular}",  "fontSize": "16px", "lineHeight": 1.6,  "letterSpacing": "0" } },
+    "small":        { "$value": { "fontFamily": "{base.font.family.body}",    "fontWeight": "{base.font.weight.regular}",  "fontSize": "14px", "lineHeight": 1.55, "letterSpacing": "0" } },
+    "caption":      { "$value": { "fontFamily": "{base.font.family.body}",    "fontWeight": "{base.font.weight.regular}",  "fontSize": "13px", "lineHeight": 1.5,  "letterSpacing": "0" } },
+    "eyebrow":      { "$value": { "fontFamily": "{base.font.family.body}",    "fontWeight": "{base.font.weight.bold}",     "fontSize": "12px", "lineHeight": 1.4,  "letterSpacing": "{base.font.tracking.label}" }, "$description": "Uppercase. Always directly above a heading" }
+  }
+}

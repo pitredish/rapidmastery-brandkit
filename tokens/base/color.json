@@ -1,0 +1,40 @@
+{
+  "base": {
+    "color": {
+      "$type": "color",
+      "blue": {
+        "50":  { "$value": "#E1EDF5", "$description": "Learning tint; also body text on the blue band" },
+        "100": { "$value": "#D3E3EE", "$description": "Eyebrow text on the blue band" },
+        "600": { "$value": "#25668F", "$description": "Logo blue. The brand band" },
+        "800": { "$value": "#173F5F", "$description": "Navy. Headings and the dark panel" }
+      },
+      "orange": {
+        "50":  { "$value": "#FBE4D8", "$description": "Systems tint" },
+        "200": { "$value": "#FFB98F", "$description": "Emphasized word on the blue band (large text only)" },
+        "400": { "$value": "#E8692F", "$description": "Highlight. Dark text only on top of it" },
+        "500": { "$value": "#C24A1E", "$description": "Button orange" },
+        "600": { "$value": "#B5441B", "$description": "Text links and systems headings" },
+        "700": { "$value": "#9C3A16", "$description": "Button hover" }
+      },
+      "green": {
+        "50":  { "$value": "#DFEFE6", "$description": "Execution tint" },
+        "600": { "$value": "#276B4F", "$description": "Execution heading; success" }
+      },
+      "slate": {
+        "0":   { "$value": "#FFFFFF", "$description": "Surfaces" },
+        "50":  { "$value": "#F2F4F6", "$description": "Page ground" },
+        "100": { "$value": "#D9E0E7", "$description": "Dividers and card borders" },
+        "400": { "$value": "#808C99", "$description": "Input borders (3:1 on ground and white)" },
+        "600": { "$value": "#56687A", "$description": "Meta text" },
+        "700": { "$value": "#44566A", "$description": "Muted text" },
+        "900": { "$value": "#1B232B", "$description": "Ink" }
+      },
+      "crimson": {
+        "500": { "$value": "#D72E50", "$description": "Logo accent only. Not a UI color" }
+      },
+      "red": {
+        "600": { "$value": "#B42318", "$description": "Errors and destructive actions" }
+      }
+    }
+  }
+}

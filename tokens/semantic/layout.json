@@ -1,0 +1,21 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "tile":   { "$value": "{base.radius.sm}" },
+    "module": { "$value": "{base.radius.md}" },
+    "card":   { "$value": "{base.radius.lg}" },
+    "panel":  { "$value": "{base.radius.xl}" },
+    "pill":   { "$value": "{base.radius.pill}" }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "photo": { "$value": { "offsetX": "0px", "offsetY": "20px", "blur": "40px", "spread": "0px", "color": "rgba(27,35,43,0.14)" } },
+    "float": { "$value": { "offsetX": "0px", "offsetY": "8px",  "blur": "24px", "spread": "0px", "color": "rgba(27,35,43,0.10)" } }
+  },
+  "layout": {
+    "$type": "dimension",
+    "content-max": { "$value": "1000px" },
+    "gutter":      { "$value": "{base.space.10}", "$description": "28px under 900px, 18px under 480px" },
+    "section-gap": { "$value": "{base.space.20}" }
+  }
+}

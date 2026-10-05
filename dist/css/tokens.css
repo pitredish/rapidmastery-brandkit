@@ -1,0 +1,147 @@
+/**
+ * Rapid Mastery brand tokens. Generated from tokens/ by Style Dictionary. Do not edit by hand.
+ */
+
+:root {
+  --rm-base-color-blue-50: #e1edf5; /** Learning tint; also body text on the blue band */
+  --rm-base-color-blue-100: #d3e3ee; /** Eyebrow text on the blue band */
+  --rm-base-color-blue-600: #25668f; /** Logo blue. The brand band */
+  --rm-base-color-blue-800: #173f5f; /** Navy. Headings and the dark panel */
+  --rm-base-color-orange-50: #fbe4d8; /** Systems tint */
+  --rm-base-color-orange-200: #ffb98f; /** Emphasized word on the blue band (large text only) */
+  --rm-base-color-orange-400: #e8692f; /** Highlight. Dark text only on top of it */
+  --rm-base-color-orange-500: #c24a1e; /** Button orange */
+  --rm-base-color-orange-600: #b5441b; /** Text links and systems headings */
+  --rm-base-color-orange-700: #9c3a16; /** Button hover */
+  --rm-base-color-green-50: #dfefe6; /** Execution tint */
+  --rm-base-color-green-600: #276b4f; /** Execution heading; success */
+  --rm-base-color-slate-0: #ffffff; /** Surfaces */
+  --rm-base-color-slate-50: #f2f4f6; /** Page ground */
+  --rm-base-color-slate-100: #d9e0e7; /** Dividers and card borders */
+  --rm-base-color-slate-400: #808c99; /** Input borders (3:1 on ground and white) */
+  --rm-base-color-slate-600: #56687a; /** Meta text */
+  --rm-base-color-slate-700: #44566a; /** Muted text */
+  --rm-base-color-slate-900: #1b232b; /** Ink */
+  --rm-base-color-crimson-500: #d72e50; /** Logo accent only. Not a UI color */
+  --rm-base-color-red-600: #b42318; /** Errors and destructive actions */
+  --rm-base-space-1: 4px;
+  --rm-base-space-2: 8px;
+  --rm-base-space-3: 12px;
+  --rm-base-space-4: 16px;
+  --rm-base-space-5: 20px;
+  --rm-base-space-6: 24px;
+  --rm-base-space-8: 32px;
+  --rm-base-space-10: 40px;
+  --rm-base-space-14: 56px;
+  --rm-base-space-20: 80px;
+  --rm-base-radius-sm: 8px; /** Icon tiles, small chips */
+  --rm-base-radius-md: 14px; /** Tool cards and modules */
+  --rm-base-radius-lg: 20px; /** Marketing cards and panels */
+  --rm-base-radius-xl: 28px; /** Photos, the dark CTA panel */
+  --rm-base-radius-pill: 999px; /** Every button and input */
+  --rm-base-font-family-display: 'Bricolage Grotesque', 'Arial Narrow', Arial, sans-serif;
+  --rm-base-font-family-body: Figtree, Arial, sans-serif;
+  --rm-base-font-family-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --rm-base-font-weight-regular: 400;
+  --rm-base-font-weight-semibold: 600;
+  --rm-base-font-weight-bold: 700;
+  --rm-base-font-tracking-display: -0.02em;
+  --rm-base-font-tracking-label: 0.06em;
+  --rm-shadow-photo: 0px 20px 40px 0px rgba(27,35,43,0.14);
+  --rm-shadow-float: 0px 8px 24px 0px rgba(27,35,43,0.10);
+  --rm-layout-content-max: 1000px;
+  --rm-type-page-title-font-size: 46px; /** 34px under 760px */
+  --rm-type-page-title-line-height: 1.1; /** 34px under 760px */
+  --rm-type-section-font-size: 30px;
+  --rm-type-section-line-height: 1.2;
+  --rm-type-subsection-font-size: 22px;
+  --rm-type-subsection-line-height: 1.25;
+  --rm-type-subsection-letter-spacing: -0.01em;
+  --rm-type-card-title-font-size: 18px;
+  --rm-type-card-title-line-height: 1.3;
+  --rm-type-card-title-letter-spacing: -0.01em;
+  --rm-type-lead-font-size: 17px;
+  --rm-type-lead-line-height: 1.65;
+  --rm-type-lead-letter-spacing: 0;
+  --rm-type-body-font-size: 16px;
+  --rm-type-body-line-height: 1.6;
+  --rm-type-body-letter-spacing: 0;
+  --rm-type-small-font-size: 14px;
+  --rm-type-small-line-height: 1.55;
+  --rm-type-small-letter-spacing: 0;
+  --rm-type-caption-font-size: 13px;
+  --rm-type-caption-line-height: 1.5;
+  --rm-type-caption-letter-spacing: 0;
+  --rm-type-eyebrow-font-size: 12px; /** Uppercase. Always directly above a heading */
+  --rm-type-eyebrow-line-height: 1.4; /** Uppercase. Always directly above a heading */
+  --rm-color-bg-ground: var(--rm-base-color-slate-50); /** Page background. Never cream */
+  --rm-color-bg-surface: var(--rm-base-color-slate-0); /** Cards, modules, list containers */
+  --rm-color-bg-brand: var(--rm-base-color-blue-600); /** The blue band. One per screen */
+  --rm-color-bg-brand-deep: var(--rm-base-color-blue-800); /** Dark CTA panel, study mode, download panel */
+  --rm-color-text-primary: var(--rm-base-color-slate-900); /** Body text */
+  --rm-color-text-heading: var(--rm-base-color-blue-800); /** h2/h3 and titles on light backgrounds */
+  --rm-color-text-muted: var(--rm-base-color-slate-700); /** Secondary body, descriptions, row details */
+  --rm-color-text-meta: var(--rm-base-color-slate-600); /** Eyebrows, captions, dates, meta lines */
+  --rm-color-text-link: var(--rm-base-color-orange-600); /** Inline text links (underlined) */
+  --rm-color-text-link-hover: var(--rm-base-color-orange-700);
+  --rm-color-on-brand-heading: var(--rm-base-color-slate-0); /** Headline on the band or dark panel */
+  --rm-color-on-brand-body: var(--rm-base-color-blue-50); /** Body text on the band (5.2:1) */
+  --rm-color-on-brand-eyebrow: var(--rm-base-color-blue-100);
+  --rm-color-on-brand-emphasis: var(--rm-base-color-orange-200); /** One emphasized word in a band headline. Large text only (3.7:1) */
+  --rm-color-border-default: var(--rm-base-color-slate-100); /** Dividers, card hairlines, rules */
+  --rm-color-border-input: var(--rm-base-color-slate-400); /** Input and form-control outlines */
+  --rm-color-border-focus: var(--rm-base-color-orange-500); /** Keyboard focus ring */
+  --rm-color-action-primary-bg: var(--rm-base-color-orange-500);
+  --rm-color-action-primary-bg-hover: var(--rm-base-color-orange-700); /** Hover only, never a resting state */
+  --rm-color-action-primary-text: var(--rm-base-color-slate-0); /** 4.9:1 on button orange */
+  --rm-color-action-secondary-bg: var(--rm-base-color-slate-0);
+  --rm-color-action-secondary-text: var(--rm-base-color-blue-800);
+  --rm-color-action-secondary-border: var(--rm-base-color-slate-100);
+  --rm-color-highlight-bg: var(--rm-base-color-orange-400); /** Progress, target lines, due pills */
+  --rm-color-highlight-text: var(--rm-base-color-slate-900); /** Always dark text on highlight. White fails (2.6:1) */
+  --rm-color-pillar-learning-tint: var(--rm-base-color-blue-50);
+  --rm-color-pillar-learning-heading: var(--rm-base-color-blue-600);
+  --rm-color-pillar-learning-body: var(--rm-base-color-slate-900);
+  --rm-color-pillar-systems-tint: var(--rm-base-color-orange-50);
+  --rm-color-pillar-systems-heading: var(--rm-base-color-orange-600);
+  --rm-color-pillar-systems-body: var(--rm-base-color-slate-900);
+  --rm-color-pillar-execution-tint: var(--rm-base-color-green-50);
+  --rm-color-pillar-execution-heading: var(--rm-base-color-green-600);
+  --rm-color-pillar-execution-body: var(--rm-base-color-slate-900);
+  --rm-color-status-success: var(--rm-base-color-green-600);
+  --rm-color-status-warning: var(--rm-base-color-orange-400);
+  --rm-color-status-danger: var(--rm-base-color-red-600);
+  --rm-color-logo-primary: var(--rm-base-color-blue-600);
+  --rm-color-logo-accent: var(--rm-base-color-crimson-500); /** Logo only */
+  --rm-radius-tile: var(--rm-base-radius-sm);
+  --rm-radius-module: var(--rm-base-radius-md);
+  --rm-radius-card: var(--rm-base-radius-lg);
+  --rm-radius-panel: var(--rm-base-radius-xl);
+  --rm-radius-pill: var(--rm-base-radius-pill);
+  --rm-layout-gutter: var(--rm-base-space-10); /** 28px under 900px, 18px under 480px */
+  --rm-layout-section-gap: var(--rm-base-space-20);
+  --rm-font-display: var(--rm-base-font-family-display);
+  --rm-font-body: var(--rm-base-font-family-body);
+  --rm-font-mono: var(--rm-base-font-family-mono);
+  --rm-type-page-title-font-family: var(--rm-base-font-family-display); /** 34px under 760px */
+  --rm-type-page-title-font-weight: var(--rm-base-font-weight-bold); /** 34px under 760px */
+  --rm-type-page-title-letter-spacing: var(--rm-base-font-tracking-display); /** 34px under 760px */
+  --rm-type-section-font-family: var(--rm-base-font-family-display);
+  --rm-type-section-font-weight: var(--rm-base-font-weight-bold);
+  --rm-type-section-letter-spacing: var(--rm-base-font-tracking-display);
+  --rm-type-subsection-font-family: var(--rm-base-font-family-display);
+  --rm-type-subsection-font-weight: var(--rm-base-font-weight-bold);
+  --rm-type-card-title-font-family: var(--rm-base-font-family-display);
+  --rm-type-card-title-font-weight: var(--rm-base-font-weight-semibold);
+  --rm-type-lead-font-family: var(--rm-base-font-family-body);
+  --rm-type-lead-font-weight: var(--rm-base-font-weight-regular);
+  --rm-type-body-font-family: var(--rm-base-font-family-body);
+  --rm-type-body-font-weight: var(--rm-base-font-weight-regular);
+  --rm-type-small-font-family: var(--rm-base-font-family-body);
+  --rm-type-small-font-weight: var(--rm-base-font-weight-regular);
+  --rm-type-caption-font-family: var(--rm-base-font-family-body);
+  --rm-type-caption-font-weight: var(--rm-base-font-weight-regular);
+  --rm-type-eyebrow-font-family: var(--rm-base-font-family-body); /** Uppercase. Always directly above a heading */
+  --rm-type-eyebrow-font-weight: var(--rm-base-font-weight-bold); /** Uppercase. Always directly above a heading */
+  --rm-type-eyebrow-letter-spacing: var(--rm-base-font-tracking-label); /** Uppercase. Always directly above a heading */
+}

@@ -1,0 +1,72 @@
+{
+  "color": {
+    "$type": "color",
+    "bg": {
+      "ground":     { "$value": "{base.color.slate.50}",  "$description": "Page background. Never cream" },
+      "surface":    { "$value": "{base.color.slate.0}",   "$description": "Cards, modules, list containers" },
+      "brand":      { "$value": "{base.color.blue.600}",  "$description": "The blue band. One per screen" },
+      "brand-deep": { "$value": "{base.color.blue.800}",  "$description": "Dark CTA panel, study mode, download panel" }
+    },
+    "text": {
+      "primary": { "$value": "{base.color.slate.900}", "$description": "Body text" },
+      "heading": { "$value": "{base.color.blue.800}",  "$description": "h2/h3 and titles on light backgrounds" },
+      "muted":   { "$value": "{base.color.slate.700}", "$description": "Secondary body, descriptions, row details" },
+      "meta":    { "$value": "{base.color.slate.600}", "$description": "Eyebrows, captions, dates, meta lines" },
+      "link":    { "$value": "{base.color.orange.600}", "$description": "Inline text links (underlined)" },
+      "link-hover": { "$value": "{base.color.orange.700}" }
+    },
+    "on-brand": {
+      "heading":  { "$value": "{base.color.slate.0}",   "$description": "Headline on the band or dark panel" },
+      "body":     { "$value": "{base.color.blue.50}",   "$description": "Body text on the band (5.2:1)" },
+      "eyebrow":  { "$value": "{base.color.blue.100}" },
+      "emphasis": { "$value": "{base.color.orange.200}", "$description": "One emphasized word in a band headline. Large text only (3.7:1)" }
+    },
+    "border": {
+      "default": { "$value": "{base.color.slate.100}", "$description": "Dividers, card hairlines, rules" },
+      "input":   { "$value": "{base.color.slate.400}", "$description": "Input and form-control outlines" },
+      "focus":   { "$value": "{base.color.orange.500}", "$description": "Keyboard focus ring" }
+    },
+    "action": {
+      "primary": {
+        "bg":       { "$value": "{base.color.orange.500}" },
+        "bg-hover": { "$value": "{base.color.orange.700}", "$description": "Hover only, never a resting state" },
+        "text":     { "$value": "{base.color.slate.0}", "$description": "4.9:1 on button orange" }
+      },
+      "secondary": {
+        "bg":     { "$value": "{base.color.slate.0}" },
+        "text":   { "$value": "{base.color.blue.800}" },
+        "border": { "$value": "{base.color.slate.100}" }
+      }
+    },
+    "highlight": {
+      "bg":   { "$value": "{base.color.orange.400}", "$description": "Progress, target lines, due pills" },
+      "text": { "$value": "{base.color.slate.900}", "$description": "Always dark text on highlight. White fails (2.6:1)" }
+    },
+    "pillar": {
+      "learning": {
+        "tint":    { "$value": "{base.color.blue.50}" },
+        "heading": { "$value": "{base.color.blue.600}" },
+        "body":    { "$value": "{base.color.slate.900}" }
+      },
+      "systems": {
+        "tint":    { "$value": "{base.color.orange.50}" },
+        "heading": { "$value": "{base.color.orange.600}" },
+        "body":    { "$value": "{base.color.slate.900}" }
+      },
+      "execution": {
+        "tint":    { "$value": "{base.color.green.50}" },
+        "heading": { "$value": "{base.color.green.600}" },
+        "body":    { "$value": "{base.color.slate.900}" }
+      }
+    },
+    "status": {
+      "success": { "$value": "{base.color.green.600}" },
+      "warning": { "$value": "{base.color.orange.400}" },
+      "danger":  { "$value": "{base.color.red.600}" }
+    },
+    "logo": {
+      "primary": { "$value": "{base.color.blue.600}" },
+      "accent":  { "$value": "{base.color.crimson.500}", "$description": "Logo only" }
+    }
+  }
+}
